@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.0</ProductVersion>
+    <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{BA9F9BDF-DFA6-4E31-AF5A-1560FC99AC01}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -38,7 +38,16 @@
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="MyConnection.cs" />
-    <Compile Include="Table.cs" />
+    <Compile Include="Tables\Table.cs" />
+    <Compile Include="Tables\Types\TypeColumn.cs" />
+    <Compile Include="Tables\Query\Result.cs" />
+    <Compile Include="Tables\Query\Value.cs" />
+    <Compile Include="Tables\Query\Column.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Tables\" />
+    <Folder Include="Tables\Types\" />
+    <Folder Include="Tables\Query\" />
+  </ItemGroup>
 </Project>

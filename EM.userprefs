@@ -1,6 +1,11 @@
 ﻿<Properties StartupItem="EM/EM.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EM/Tables/Types/Varchar.cs">
+    <Files>
+      <File FileName="EM/Tables/Types/Varchar.cs" Line="20" Column="1" />
+      <File FileName="EM/Tables/Types/TableType.cs" Line="13" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
